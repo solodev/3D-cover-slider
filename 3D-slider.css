@@ -1,0 +1,12 @@
+body {
+  background-color: white;
+}
+.my-flipster li:hover {
+  filter: alpha(opacity=10);
+    -webkit-transform: scale(2, 2);
+    -ms-transform: scale(2, 2);
+    -o-transform: scale(2, 2);
+    transform: scale(2, 2);
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;  
+}
